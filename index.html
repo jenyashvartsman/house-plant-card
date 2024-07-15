@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plant card</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main class="container">
+      <article class="card">
+        <!-- header -->
+        <div class="card__header">
+          <!-- back -->
+          <a class="card__back-link" href="#">
+            <span class="material-symbols-outlined"> arrow_back_ios </span>
+            <span>Back to all plants</span>
+          </a>
+
+          <!-- favorite -->
+          <button class="btn-icon">
+            <span class="material-symbols-outlined"> favorite </span>
+          </button>
+        </div>
+
+        <!-- body -->
+        <div class="card__body">
+          <!-- left -->
+          <div class="card__body-left">
+            <img class="card__img" src="assets//plant.jpg" alt="plant" />
+          </div>
+
+          <!-- right -->
+          <div class="card__body-right">
+            <!--  titles  -->
+            <h2 class="card__title">Classic plant</h2>
+            <h4 class="card__subtitle">Popular house plant</h4>
+
+            <!-- price -->
+            <h2 class="card__price">$18</h2>
+
+            <!-- description -->
+            <p class="card__desc">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Repellendus ex esse recusandae ab unde dolores ipsum officia
+              dolorum, provident, quasi maxime illo cupiditate rerum nihil
+              optio, doloribus laboriosam libero ullam.
+            </p>
+
+            <div class="card__actions">
+              <button class="btn">Add to cart</button>
+              <button class="btn">Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
